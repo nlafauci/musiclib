@@ -2,7 +2,7 @@ import { useEffect, useState, Suspense } from 'react'
 import Gallery from './components/Gallery';
 import SearchBar from './components/SearchBar';
 import { createResource as fetchData } from './helper';
-import { spinner } from './spinner';
+import { Spinner } from './spinner';
 
 
 function App() {
