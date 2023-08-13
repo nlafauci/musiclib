@@ -1,4 +1,4 @@
-import loading_spinner from '../spinner_gif.gif'
+import loading_spinner from '../spinner.gif'
 
 const Spinner = () => {
     return (
