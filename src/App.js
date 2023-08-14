@@ -5,10 +5,14 @@ import SearchBar from './components/SearchBar';
 import ArtistView from './components/ArtistView';
 import AlbumView from './components/AlbumView';
 
+import { DataContext } from './context/DataContext';
+import { SearchContext } from './context/SearchContext';
+
 function App() {
   let [message, setMessage] = useState('Seach for music')
   let [search, setSearch] = useState('')
   let [data, setData] = useState([])
+
   const API_URL = 'https://itunes.apple.com/search?term='
 
 useEffect(()=>{
