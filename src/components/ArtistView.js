@@ -6,8 +6,6 @@ function ArtistView() {
     const [ artistData, setArtistData ] = useState([])
     const navigate = useNavigate()
     
-
-
     useEffect(() => {
         const API_URL = `http://localhost:4000/album/${id}`
         const fetchData = async () => {
