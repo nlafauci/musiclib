@@ -6,15 +6,16 @@ function Gallery() {
     const data = useContext(DataContext)
     const display = data.map((item, i)=> {
         return (
-            <GalleryItem item={item} key={i}/>
+            <GalleryItem item={item} key={index} />
         )
     })
 
     return (
-    <div>
-        {display}
-    </div>
-  )
+        <div>
+            {display}
+        </div>
+    )
 }
+
 
 export default Gallery
